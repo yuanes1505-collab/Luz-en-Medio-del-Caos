@@ -1,0 +1,73 @@
+/* Fondo y estilo general */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb, #90caf9);
+  color: #222;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Encabezado */
+header {
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #0d47a1;
+  font-size: 2.3rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+/* Sección de mensaje */
+.mensaje {
+  margin-top: 30px;
+}
+
+button {
+  background-color: #1565c0;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0d47a1;
+  transform: scale(1.05);
+}
+
+#frase {
+  margin: 20px auto;
+  width: 60%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de página */
+footer {
+  margin-top: auto;
+  padding: 15px;
+  font-size: 0.9rem;
+  color: #0d47a1;
+}
