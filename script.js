@@ -11,5 +11,13 @@ function mostrarFrase() {
 
   const indice = Math.floor(Math.random() * mensajes.length);
   const mensaje = mensajes[indice];
-  document.getElementById("frase").textContent = mensaje;
+  const fraseElemento = document.getElementById("frase");
+
+  // Efecto de desvanecimiento suave
+  fraseElemento.style.opacity = 0;
+
+  setTimeout(() => {
+    fraseElemento.textContent = mensaje;
+    fraseElemento.style.opacity = 1;
+  }, 400);
 }
